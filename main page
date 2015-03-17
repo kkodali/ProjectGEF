@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Galaxy Empire Legends</h1>
+    <p>This page discusses about the different fleet that can be produced in GE!! </p>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Civil</h3>
+      <p>Civil ships are meant to provide Transportation of cargos, Recon and Recycle of waste.</p>
+      <p>Each type of fleet is unlocked with certain conditions like shipyard level, certain research level etc,.</p>
+      <p> Please click on the title to redirect to concerned page!!!!</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Attack</h3>
+      <p>Different types of attack troops are produced here and each fleet type varies in its attack, defence, armor, speed and gas consumption. </p>
+      <p>Each type of fleet is unlocked with certain conditions like shipyard level, certain research level etc,.</p>
+      <p> Please click on the title to redirect to concerned page!!!!</p>
+      <form name=".myForm" action="demo_form.asp"
+onsubmit="return validateForm()" method="post">
+Name: <input type="text" name=".fname" required>
+<input type="submit" value="Submit">
+</form>
+    </div>
+    <div class="col-sm-4">
+      <h3>Defence</h3>        
+      <p>Various types of fleet are produced here which varies in many properties like attack type, speed of attack, armor, and defence. </p>
+      <p>Each type of fleet is unlocked with certain conditions like shipyard level, certain research level etc,.</p>
+      <p> Please click on the title to redirect to concerned page!!!!</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
